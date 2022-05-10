@@ -44,6 +44,16 @@ from recursion.fibonacci import fibonacci
 print("***fibonacci***")
 print(fibonacci(10))
 '''
+'''
 from recursion.sum import sum
 print("***Sum of first n numbers***")
 print(sum(5))
+'''
+from unittest import result
+from searching.binary_search import binary
+print("***Binary search***")
+print("input: " , [4, 88, 8, -2, 0])
+print("output: " , binary([3, 44, 7, -1, 0] , 0))
+
+if result == -1:
+    print("No existe")
