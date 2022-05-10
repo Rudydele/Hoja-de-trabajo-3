@@ -49,6 +49,7 @@ from recursion.sum import sum
 print("***Sum of first n numbers***")
 print(sum(5))
 '''
+'''
 from unittest import result
 from searching.binary_search import binary
 print("***Binary search***")
@@ -57,3 +58,8 @@ print("output: " , binary([3, 44, 7, -1, 0] , 0))
 
 if result == -1:
     print("No existe")
+'''
+from searching.linear_search import linear
+print("***linear search***")
+print("input: " , [1, 55, 6, -1, 0])
+print("output: " , linear([6, 44, 5, -2, 0] , 7))
