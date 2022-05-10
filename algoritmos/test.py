@@ -28,3 +28,13 @@ from lists.list_merge import comb
 print ("***list merge***")
 comb()
 '''
+'''
+from recursion.coutdown import regresi
+print ("***countdown***")
+print(regresi(11))
+'''
+from recursion.fsctorisl import fact
+print("***Factorial of N***")
+print("factorial de 8: ")
+print(fact(8))
+ 
