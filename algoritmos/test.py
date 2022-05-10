@@ -71,7 +71,13 @@ print("***bubble sort optimized***")
 print("input: " , [1, 88, 6, -1, 0])
 print("output: " , bubble_opt([4, 91, 5, -9, 0]))
 '''
+'''
 from sorting.bubble_sort import bubble_sort
 print ("***bubble sort***")
 print("input: " , [1, 88, 6, -1, 0])
 print("output: " , bubble_sort([4, 91, 5, -9, 0]))
+'''
+from sorting.insertion_sort import insertion
+print("***insertion sort***")
+print("input: " , [1, 88, 6, -1, 0])
+print("output: " , insertion([4, 91, 5, -9, 0]))
