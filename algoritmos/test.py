@@ -39,7 +39,11 @@ print("***Factorial of N***")
 print("factorial de 8: ")
 print(fact(8))
 '''
-
+'''
 from recursion.fibonacci import fibonacci
 print("***fibonacci***")
 print(fibonacci(10))
+'''
+from recursion.sum import sum
+print("***Sum of first n numbers***")
+print(sum(5))
