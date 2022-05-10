@@ -59,7 +59,15 @@ print("output: " , binary([3, 44, 7, -1, 0] , 0))
 if result == -1:
     print("No existe")
 '''
+'''
 from searching.linear_search import linear
 print("***linear search***")
 print("input: " , [1, 55, 6, -1, 0])
 print("output: " , linear([6, 44, 5, -2, 0] , 7))
+'''
+'''
+from sorting.bubble_sort_opt import bubble_opt
+print("***bubble sort optimized***")
+print("input: " , [1, 88, 6, -1, 0])
+print("output: " , bubble_opt([4, 91, 5, -9, 0]))
+'''
