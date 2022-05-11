@@ -2,9 +2,9 @@
 from brute_force.divisorsn import divisors
 
 print("***Divisors de n***")
-n = 381
-result = divisors(381)
-print("n: " + str(n) + "divisors: " + str(result))
+n = 77
+result = divisors(77)
+print("n: " + str(n) + " divisors: " + str(result))
 '''
 
 '''
@@ -15,9 +15,10 @@ print(unlock("3829"))
 
 '''
 from brute_force.sum import suma
-print("***sum***")
-n = int(input("ingrese n: "))
+print("***Sum of first n numbers***")
+print(suma(6))
 '''
+
 '''
 from lists.largest_number import maximo
 print("***largest number***")
@@ -83,7 +84,9 @@ print("***insertion sort***")
 print("input: " , [1, 88, 6, -1, 0])
 print("output: " , insertion([4, 91, 5, -9, 0]))
 '''
+'''
 from sorting.selection_sort import Selections
 print("***selection sort***")
 print("input: " , [1, 88, 6, -1, 0])
 print("output: " , Selections([4, 91, 5, -9, 0]))
+'''
