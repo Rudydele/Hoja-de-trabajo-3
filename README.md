@@ -1,5 +1,5 @@
 # Hoja-de-trabajo-3
-El presente trabajo cuenta con 6 directorios y 17 archivos en total. Las carpetas se dividen en: 
+El presente trabajo cuenta con 6 directorios y 17 archivos en total. El repositorio tiene como motivo principal mostrar todos los avances vistos en en el curso; las carpetas se dividen en: 
 -lists
 -recursion
 -searching
